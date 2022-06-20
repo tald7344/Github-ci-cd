@@ -1,6 +1,6 @@
 <?php
 
-function replaceDashToSpace((string)$string)
+function replaceDashToSpace(string $string) : string
 {
   return str_replace(' ', '-', $string);
 }
